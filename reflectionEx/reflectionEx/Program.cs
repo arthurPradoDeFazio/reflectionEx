@@ -3,7 +3,7 @@
 namespace reflectionEx;
 class Program
 {
-    public static void GetPropertiesAndMethods<T>(Task obj)
+    public static void GetPropertiesAndMethods<T>(T obj)
     {
         var type = obj.GetType();
 
@@ -18,7 +18,7 @@ class Program
             Console.WriteLine(GetSignature(method));
     }
 
-    private static string GetSignature(MethodInfo method)
+    private static string GetSignature(MethodInfo method) // fonte: https://stackoverflow.com/questions/2267277/get-private-properties-method-of-base-class-with-reflection
     {
         System.Text.StringBuilder signature = new System.Text.StringBuilder();
 
@@ -38,10 +38,17 @@ class Program
         signature.Append('(');
         foreach (var argument in method.GetParameters())
             signature.Append($"{argument.GetType().Name} {argument.Name},");
-        signature.Remove(signature.Length - 1, 1);
+        if (signature[signature.Length - 1] != '(')
+            signature.Remove(signature.Length - 1, 1);
         signature.Append(')');
 
         return signature.ToString();
+    }
+
+    public static void Main()
+    {
+        string x = "bla";
+        GetPropertiesAndMethods(x);
     }
 
 }

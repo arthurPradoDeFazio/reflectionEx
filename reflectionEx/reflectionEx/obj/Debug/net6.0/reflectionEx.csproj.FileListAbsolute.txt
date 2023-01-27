@@ -1,0 +1,15 @@
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/bin/Debug/net6.0/reflectionEx
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/bin/Debug/net6.0/reflectionEx.deps.json
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/bin/Debug/net6.0/reflectionEx.runtimeconfig.json
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/bin/Debug/net6.0/reflectionEx.dll
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/bin/Debug/net6.0/reflectionEx.pdb
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/obj/Debug/net6.0/reflectionEx.csproj.AssemblyReference.cache
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/obj/Debug/net6.0/reflectionEx.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/obj/Debug/net6.0/reflectionEx.AssemblyInfoInputs.cache
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/obj/Debug/net6.0/reflectionEx.AssemblyInfo.cs
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/obj/Debug/net6.0/reflectionEx.csproj.CoreCompileInputs.cache
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/obj/Debug/net6.0/reflectionEx.dll
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/obj/Debug/net6.0/refint/reflectionEx.dll
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/obj/Debug/net6.0/reflectionEx.pdb
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/obj/Debug/net6.0/reflectionEx.genruntimeconfig.cache
+/Users/Arthur_Prado_De_Fazio/code_at_CS/reflectionEx/reflectionEx/reflectionEx/obj/Debug/net6.0/ref/reflectionEx.dll
