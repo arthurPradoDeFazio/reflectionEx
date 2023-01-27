@@ -46,8 +46,12 @@ class Program
         return signature.ToString();
     }
 
-    public T getObj<T>(T obj) where T: Nullable
+    public static T? getObj<T>(T obj) where T: class
+
     {
+        if (obj == null)
+            return null as T;
+
         foreach (var c in obj.GetType().GetConstructors())
         {
             var l = c.GetParameters();
@@ -56,7 +60,8 @@ class Program
                 return (T)c.Invoke(new object[] { });
             }
         }
-        
+
+        return null as T;
     }
 
     public static void Main()
@@ -64,6 +69,7 @@ class Program
         string x = "bla";
         GetPropertiesAndMethods(x);
         string y = getObj(x);
+        Console.WriteLine($"y = {y}");
     }
 
 }
