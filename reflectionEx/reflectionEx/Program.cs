@@ -24,6 +24,7 @@ class Program
 
         signature.Append(method.IsPublic ? "public" : "private");
         signature.Append(method.IsStatic ? " static" : "");
+        signature.Append($" {method.ReturnType.Name}");
         signature.Append($"  {method.Name}");
 
         if (method.IsGenericMethod)
@@ -45,10 +46,24 @@ class Program
         return signature.ToString();
     }
 
+    public T getObj<T>(T obj) where T: Nullable
+    {
+        foreach (var c in obj.GetType().GetConstructors())
+        {
+            var l = c.GetParameters();
+            if (l.GetLength(0) == 0)
+            {
+                return (T)c.Invoke(new object[] { });
+            }
+        }
+        
+    }
+
     public static void Main()
     {
         string x = "bla";
         GetPropertiesAndMethods(x);
+        string y = getObj(x);
     }
 
 }
